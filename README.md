@@ -8,15 +8,14 @@
 
 
 ## Sobre Aplicação :dart:
-  Api de interação  de pontos de coletas para reciclagem, contruido na semana NEXT LEVEL WEEK da
-  <a href="https://rocketseat.com.br/">rocketseat</a> :rocket:, possibilitando rotas de cadastros, listagem fazendo uso de metodos HTTP,
-  tecnologias abordadas typescript, node, express, knex entre outras.
-  
-## Clients :dart:
-- <a href="https://github.com/FelipecgPereira/Ecoleta-frontend">Ecoleta-WEB</a> 
-- <a href="https://github.com/FelipecgPereira/Ecoleta-mobile">Ecoleta-MOBILE</a> 
+  Projeto contruido na semana NEXT LEVEL WEEK da <a href="https://rocketseat.com.br/">rocketseat</a> :rocket:, com objetivo de cadastro de pontos de coletas e mapeamento desses pontos.
+  Tecnologias utilizada para contrução da aplicação foram <a href="https://nodejs.org/en/download/">NodeJs</a> para o Back-end,<a href="https://pt-br.reactjs.org/"> ReactJS</a> para Front-End e <a href="https://reactnative.dev/">React-Native</a> para mobile.
+ 
+## Back-End :dart:
 
-## Rotas :dart:
+A api foi desenvolvida usando typescript tambem faz uso de tecnologias como express, knex entre outras.
+
+### Rotas 
 
 ### GET 
 - `GET /items` : Lista todos os items registrados na base
@@ -93,6 +92,14 @@ ou Script de execução do package.json
 
 > yarn dev
 
+
+## Front-End :dart:
+
+Todo front faz uso do React com typescript.
+
+## Mobile :dart:
+
+Mobile faz uso React-native com typescript usando tambem o <a href="https://expo.io/">expo</a> para desenvolvimento.
 
 
 
